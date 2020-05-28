@@ -14,7 +14,7 @@ A solution to solve LunarLander-v2 of OpenAI
 
 ### Installing
 
-* [anaconda](https://www.anaconda.com/products/individual) (Download anacoda toolkit)
+* [Anaconda](https://www.anaconda.com/products/individual) (Download anacoda toolkit)
 
 * [OpenAI Gym](https://github.com/openai/gym) (You can perform a minimal install of gym)
 
@@ -37,7 +37,8 @@ conda install pytorch torchvision -c pytorch
 
 ## Authors
 
-* **Stefanel Stan** - [Stefanel Stan Github](https://github.com/StefanelStan)
+* **Tom gt** - *Fullstack egineer* - [github profile](https://github.com/tomgtbst)
+
 
 ## Special Thanks
 * Author wishes to thank Stackoverflow for providing great free services and to the three online resources listed below for sharing their helpful knowledge
