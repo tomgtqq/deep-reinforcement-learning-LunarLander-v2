@@ -37,7 +37,7 @@ conda install pytorch torchvision -c pytorch
 
 ## Authors
 
-* **Tom gt** - *Fullstack egineer* - [github profile](https://github.com/tomgtbst)
+* **Tom gt** - *Fullstack egineer* - [github profile](https://github.com/tomgtqq)
 
 
 ## Special Thanks
