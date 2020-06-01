@@ -25,10 +25,8 @@ class Agent():
         self.seed = random.seed(seed)
 
         # Q-Network  target - local
-        self.qnetwork_local = QNetwork(
-            state_size, aciton_size, seed).to(device)
-        self.qnetwork_target = QNetwork(
-            state_size, aciton_size, seed).to(device)
+        self.qnetwork_local = QNetwork(state_size, action_size, seed).to(device)
+        self.qnetwork_target = QNetwork(state_size, action_size, seed).to(device)
 
         self.optimizer = optim.Adam(self.qnetwork_local.parameters(), lr=LR)
 

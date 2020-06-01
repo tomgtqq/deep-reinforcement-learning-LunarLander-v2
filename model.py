@@ -8,9 +8,9 @@ class QNetwork(nn.Module):
 
         super(QNetwork, self).__init__()
         self.seed = torch.manual_seed(seed)
-        self.fc1 = nn.Linner(state_size, fc1_uints)
-        self.fc2 = nn.Linner(fc1_uints, fc2_uints)
-        self.fc1 = nn.Linner(fc2_uints, action_size)
+        self.fc1 = nn.Linear(state_size, fc1_uints)
+        self.fc2 = nn.Linear(fc1_uints, fc2_uints)
+        self.fc1 = nn.Linear(fc2_uints, action_size)
 
     def forward(self, state):
         x = F.relu(self.fc1(state))
