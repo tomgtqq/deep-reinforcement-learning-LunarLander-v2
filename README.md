@@ -1,4 +1,4 @@
-# RL_1_LunarLander-v2
+# deep-reinforcement-learning-1-LunarLander-v2
 A solution to solve LunarLander-v2 of OpenAI 
 
 [Lunarlander-v2](https://gym.openai.com/envs/LunarLander-v2/) (Action Space 4, State Space 8)
